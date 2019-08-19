@@ -9,8 +9,8 @@ package com.tanwei.simplefactory;
  *安装流程制作披萨
  */
 public abstract class Pizza {
- abstract void prepare();
- abstract void bake();
- abstract void cut();
- abstract void box();
+public abstract void prepare();
+public abstract void bake();
+public abstract void cut();
+public abstract void box();
 }
