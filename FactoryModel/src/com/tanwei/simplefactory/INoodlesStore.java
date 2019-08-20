@@ -5,21 +5,19 @@ package com.tanwei.simplefactory;
 
 /**
  * @author pc
- *工厂的客户--披萨店
+ *面条店
  */
-public class PizzaStore {
-SimplePizzaFactory factory;
-public PizzaStore(SimplePizzaFactory factory){
-this.factory=factory;	
-}
+public class INoodlesStore {
 
-public Pizza orderPizza(String type){
-	Pizza pizza;
-	pizza=factory.createPizza(type);
-	pizza.prepare();
-	pizza.bake();
-	pizza.cut();
-	pizza.box();
-	return pizza;
+/**
+ * 客人进行进来找商家点单
+ * @param type
+ * @return
+ */
+public INoodles orderPizza(int type){
+	INoodles noodles;
+	noodles=SimpleNoodlesFactory.createNoodles(type);
+	noodles.desc();;
+	return noodles;
 }
 }

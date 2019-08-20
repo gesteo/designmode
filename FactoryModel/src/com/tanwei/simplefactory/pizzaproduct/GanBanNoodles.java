@@ -7,14 +7,16 @@ import com.tanwei.simplefactory.INoodles;
 
 /**
  * @author pc
- *具体的产品vegglePizza
+ *
  */
-public class PaoNoodles extends INoodles {
+public class GanBanNoodles extends INoodles {
 
+	/* (non-Javadoc)
+	 * @see com.tanwei.simplefactory.INoodles#desc()
+	 */
 	@Override
 	public void desc() {
-		System.out.println("泡面吃多了会吐");
+		System.out.println("家里的干拌面好吃");
 	}
 
-	
 }

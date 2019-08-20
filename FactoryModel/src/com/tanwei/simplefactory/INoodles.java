@@ -5,12 +5,12 @@ package com.tanwei.simplefactory;
 
 /**
  * @author pc
- *抽象的工厂产品"披萨"
- *安装流程制作披萨
+ *抽象的工厂产品"面条"
  */
-public abstract class Pizza {
-public abstract void prepare();
-public abstract void bake();
-public abstract void cut();
-public abstract void box();
+public abstract class INoodles {
+/**
+ * 描述每种面条啥样的
+ */
+public abstract void desc();
+
 }

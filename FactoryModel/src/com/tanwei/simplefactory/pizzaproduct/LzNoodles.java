@@ -3,48 +3,18 @@
  */
 package com.tanwei.simplefactory.pizzaproduct;
 
-import com.tanwei.simplefactory.Pizza;
+import com.tanwei.simplefactory.INoodles;
 
 /**
  * @author pc
- *
+ * 具体的产品cheesePizza
  */
-public class CheesePizza extends Pizza {
+public class LzNoodles  extends INoodles {
 
-	/* (non-Javadoc)
-	 * @see com.tanwei.simplefactory.Pizza#prepare()
-	 */
 	@Override
-public	void prepare() {
-		// TODO Auto-generated method stub
-
+	public void desc() {
+		System.out.println("兰州拉面，上海的好贵，家里才五六块钱一碗");
 	}
 
-	/* (non-Javadoc)
-	 * @see com.tanwei.simplefactory.Pizza#bake()
-	 */
-	@Override
-	public	void bake() {
-		// TODO Auto-generated method stub
-
-	}
-
-	/* (non-Javadoc)
-	 * @see com.tanwei.simplefactory.Pizza#cut()
-	 */
-	@Override
-	public void cut() {
-		// TODO Auto-generated method stub
-
-	}
-
-	/* (non-Javadoc)
-	 * @see com.tanwei.simplefactory.Pizza#box()
-	 */
-	@Override
-	public	void box() {
-		// TODO Auto-generated method stub
-
-	}
-
+	
 }
